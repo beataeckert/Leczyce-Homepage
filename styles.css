@@ -1,0 +1,189 @@
+
+@font-face {
+    
+    src: url("LeagueGothic.ttf");
+    font-family: LeagueGothic; 
+    }
+@font-face {
+    
+    src: url("Mada-Regular.ttf");
+    font-family: Mada; 
+    }
+
+body {
+    margin: 0px;
+    width: 100%;
+    min-width: 720px;
+    font-family: LeagueGothic; 
+    }
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("images/godetowo.jpg");
+    background-size: cover;
+    background-position:  center;
+    margin-bottom: 0px;
+    height: 343px;
+    color: #FFFFFF;
+    }
+
+
+#title {
+    /* Title style 'Visit Łęczyce' */
+    font-size: 35px;    
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 10px 25px 10px 25px;
+    background: #3F6694;
+    transform: matrix(1, -0.07, 0.04, 1, 0, 0);
+    margin-bottom: 0px;
+    }
+
+#subtitle {
+    /* Subtitle's style 'Enjoy culture and sports in this vibrant district close to the Baltic See' */
+    font-family: LeagueGothic;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    background: #5281A9;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+
+a:link {
+    color:#FFFFFF;
+}
+
+a:visited {
+    color:#FFFFFF;
+}
+
+a:hover{
+    color: #5281A9;
+    
+}
+
+a:active {
+    color: #FFFFFF;
+}
+
+.activities_section {
+    margin-top: 0px;
+    background: #F2F1F1;
+    height: 343px;
+    color: #3F6694;
+}
+
+#activities_title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 30px 0px 0px 0px;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.activities_subtitles {
+    margin-bottom: 10px;
+    font-family: Mada;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+.activities_photos {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #5281A9;
+
+}
+.activities_description {
+    width: 150px;
+    font-family: 'Mada';
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #3F6694;
+        
+}
+.set_columns {
+    margin-top: 10px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.card {
+    width: 400px;
+    margin: 60px auto;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #5281A9;
+    color: #FFFFFF;
+    border: 1px solid #5281A9;
+    border-radius: 20px;
+}
+
+.avatar {
+    height: 160px;
+    border-radius: 20px;
+    border: 10px solid #FFFFFF;
+}
+
+#guide_title {
+    font-family: LeagueGothic;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#guide_description {
+    width: 150px;
+    font-family: 'Mada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#guide_name {
+    font-family: 'Mada';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#activity_palace{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#activity_forest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#activity_kayak {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
